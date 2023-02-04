@@ -1,5 +1,5 @@
 export const selectFilteredContacts = state => {
   return state.contacts.contacts.filter(contact =>
-    contact.name.toLowerCase().includes(state.contacts.filter.toLowerCase())
+    contact.name.toLowerCase().includes(state.filter.filter.toLowerCase())
   );
 };
